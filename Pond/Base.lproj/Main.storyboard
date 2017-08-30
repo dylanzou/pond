@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="703-4V-yAM">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16G29" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="703-4V-yAM">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -58,19 +58,20 @@
                                 <state key="normal" title="Log In">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <segue destination="S4R-Ja-viH" kind="show" id="HND-0P-XF8"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="0.57810781528761901" green="0.76394108597616572" blue="0.7296510536380002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
                     <connections>
                         <outlet property="titleLabel" destination="2vJ-ch-Jal" id="POF-i1-dsx"/>
-                        <outlet property="userField" destination="B7z-JS-YLv" id="dJ8-t6-CHp"/>
-                        <outlet property="usernameField" destination="B7z-JS-YLv" id="VHC-c7-XL0"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Q3h-pU-vEd" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-101.59999999999999" y="-243.32833583208398"/>
+            <point key="canvasLocation" x="-158" y="-243"/>
         </scene>
         <!--Data View Controller-->
         <scene sceneID="snT-py-3hH">
