@@ -41,9 +41,6 @@
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
-                                <connections>
-                                    <action selector="passField:" destination="703-4V-yAM" eventType="editingDidEndOnExit" id="Djc-gE-236"/>
-                                </connections>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BrD-pp-8Rf">
                                 <rect key="frame" x="160" y="410" width="55" height="30"/>
@@ -51,6 +48,9 @@
                                 <state key="normal" title="Sign Up">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <segue destination="S4R-Ja-viH" kind="show" id="EYa-X5-WYa"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YhG-Uj-soP">
                                 <rect key="frame" x="166" y="372" width="42" height="30"/>
@@ -59,7 +59,7 @@
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
-                                    <segue destination="S4R-Ja-viH" kind="show" id="HND-0P-XF8"/>
+                                    <segue destination="S4R-Ja-viH" kind="show" animates="NO" id="Ohe-t5-wTD"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -116,4 +116,7 @@
             <point key="canvasLocation" x="597" y="-243"/>
         </scene>
     </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="Ohe-t5-wTD"/>
+    </inferredMetricsTieBreakers>
 </document>
