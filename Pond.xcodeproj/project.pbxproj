@@ -1,0 +1,536 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FCBD6F161F5674E90008B82D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCBD6F151F5674E90008B82D /* AppDelegate.swift */; };
+		FCBD6F181F5674E90008B82D /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCBD6F171F5674E90008B82D /* RootViewController.swift */; };
+		FCBD6F1A1F5674E90008B82D /* DataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCBD6F191F5674E90008B82D /* DataViewController.swift */; };
+		FCBD6F1C1F5674E90008B82D /* ModelController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCBD6F1B1F5674E90008B82D /* ModelController.swift */; };
+		FCBD6F1F1F5674E90008B82D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCBD6F1D1F5674E90008B82D /* Main.storyboard */; };
+		FCBD6F211F5674E90008B82D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FCBD6F201F5674E90008B82D /* Assets.xcassets */; };
+		FCBD6F241F5674E90008B82D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCBD6F221F5674E90008B82D /* LaunchScreen.storyboard */; };
+		FCBD6F2F1F5674EA0008B82D /* PondTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCBD6F2E1F5674EA0008B82D /* PondTests.swift */; };
+		FCBD6F3A1F5674EA0008B82D /* PondUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCBD6F391F5674EA0008B82D /* PondUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FCBD6F2B1F5674EA0008B82D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FCBD6F0A1F5674E90008B82D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FCBD6F111F5674E90008B82D;
+			remoteInfo = Pond;
+		};
+		FCBD6F361F5674EA0008B82D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FCBD6F0A1F5674E90008B82D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FCBD6F111F5674E90008B82D;
+			remoteInfo = Pond;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FCBD6F121F5674E90008B82D /* Pond.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pond.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCBD6F151F5674E90008B82D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FCBD6F171F5674E90008B82D /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
+		FCBD6F191F5674E90008B82D /* DataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataViewController.swift; sourceTree = "<group>"; };
+		FCBD6F1B1F5674E90008B82D /* ModelController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelController.swift; sourceTree = "<group>"; };
+		FCBD6F1E1F5674E90008B82D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FCBD6F201F5674E90008B82D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FCBD6F231F5674E90008B82D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FCBD6F251F5674E90008B82D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FCBD6F2A1F5674EA0008B82D /* PondTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PondTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCBD6F2E1F5674EA0008B82D /* PondTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PondTests.swift; sourceTree = "<group>"; };
+		FCBD6F301F5674EA0008B82D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FCBD6F351F5674EA0008B82D /* PondUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PondUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCBD6F391F5674EA0008B82D /* PondUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PondUITests.swift; sourceTree = "<group>"; };
+		FCBD6F3B1F5674EA0008B82D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FCBD6F0F1F5674E90008B82D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCBD6F271F5674EA0008B82D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCBD6F321F5674EA0008B82D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FCBD6F091F5674E90008B82D = {
+			isa = PBXGroup;
+			children = (
+				FCBD6F141F5674E90008B82D /* Pond */,
+				FCBD6F2D1F5674EA0008B82D /* PondTests */,
+				FCBD6F381F5674EA0008B82D /* PondUITests */,
+				FCBD6F131F5674E90008B82D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FCBD6F131F5674E90008B82D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FCBD6F121F5674E90008B82D /* Pond.app */,
+				FCBD6F2A1F5674EA0008B82D /* PondTests.xctest */,
+				FCBD6F351F5674EA0008B82D /* PondUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FCBD6F141F5674E90008B82D /* Pond */ = {
+			isa = PBXGroup;
+			children = (
+				FCBD6F151F5674E90008B82D /* AppDelegate.swift */,
+				FCBD6F171F5674E90008B82D /* RootViewController.swift */,
+				FCBD6F191F5674E90008B82D /* DataViewController.swift */,
+				FCBD6F1B1F5674E90008B82D /* ModelController.swift */,
+				FCBD6F1D1F5674E90008B82D /* Main.storyboard */,
+				FCBD6F201F5674E90008B82D /* Assets.xcassets */,
+				FCBD6F221F5674E90008B82D /* LaunchScreen.storyboard */,
+				FCBD6F251F5674E90008B82D /* Info.plist */,
+			);
+			path = Pond;
+			sourceTree = "<group>";
+		};
+		FCBD6F2D1F5674EA0008B82D /* PondTests */ = {
+			isa = PBXGroup;
+			children = (
+				FCBD6F2E1F5674EA0008B82D /* PondTests.swift */,
+				FCBD6F301F5674EA0008B82D /* Info.plist */,
+			);
+			path = PondTests;
+			sourceTree = "<group>";
+		};
+		FCBD6F381F5674EA0008B82D /* PondUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FCBD6F391F5674EA0008B82D /* PondUITests.swift */,
+				FCBD6F3B1F5674EA0008B82D /* Info.plist */,
+			);
+			path = PondUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FCBD6F111F5674E90008B82D /* Pond */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FCBD6F3E1F5674EA0008B82D /* Build configuration list for PBXNativeTarget "Pond" */;
+			buildPhases = (
+				FCBD6F0E1F5674E90008B82D /* Sources */,
+				FCBD6F0F1F5674E90008B82D /* Frameworks */,
+				FCBD6F101F5674E90008B82D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Pond;
+			productName = Pond;
+			productReference = FCBD6F121F5674E90008B82D /* Pond.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FCBD6F291F5674EA0008B82D /* PondTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FCBD6F411F5674EA0008B82D /* Build configuration list for PBXNativeTarget "PondTests" */;
+			buildPhases = (
+				FCBD6F261F5674EA0008B82D /* Sources */,
+				FCBD6F271F5674EA0008B82D /* Frameworks */,
+				FCBD6F281F5674EA0008B82D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FCBD6F2C1F5674EA0008B82D /* PBXTargetDependency */,
+			);
+			name = PondTests;
+			productName = PondTests;
+			productReference = FCBD6F2A1F5674EA0008B82D /* PondTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FCBD6F341F5674EA0008B82D /* PondUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FCBD6F441F5674EA0008B82D /* Build configuration list for PBXNativeTarget "PondUITests" */;
+			buildPhases = (
+				FCBD6F311F5674EA0008B82D /* Sources */,
+				FCBD6F321F5674EA0008B82D /* Frameworks */,
+				FCBD6F331F5674EA0008B82D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FCBD6F371F5674EA0008B82D /* PBXTargetDependency */,
+			);
+			name = PondUITests;
+			productName = PondUITests;
+			productReference = FCBD6F351F5674EA0008B82D /* PondUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FCBD6F0A1F5674E90008B82D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Dylan Zou";
+				TargetAttributes = {
+					FCBD6F111F5674E90008B82D = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+					FCBD6F291F5674EA0008B82D = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FCBD6F111F5674E90008B82D;
+					};
+					FCBD6F341F5674EA0008B82D = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FCBD6F111F5674E90008B82D;
+					};
+				};
+			};
+			buildConfigurationList = FCBD6F0D1F5674E90008B82D /* Build configuration list for PBXProject "Pond" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FCBD6F091F5674E90008B82D;
+			productRefGroup = FCBD6F131F5674E90008B82D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FCBD6F111F5674E90008B82D /* Pond */,
+				FCBD6F291F5674EA0008B82D /* PondTests */,
+				FCBD6F341F5674EA0008B82D /* PondUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FCBD6F101F5674E90008B82D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCBD6F241F5674E90008B82D /* LaunchScreen.storyboard in Resources */,
+				FCBD6F211F5674E90008B82D /* Assets.xcassets in Resources */,
+				FCBD6F1F1F5674E90008B82D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCBD6F281F5674EA0008B82D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCBD6F331F5674EA0008B82D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FCBD6F0E1F5674E90008B82D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCBD6F181F5674E90008B82D /* RootViewController.swift in Sources */,
+				FCBD6F1C1F5674E90008B82D /* ModelController.swift in Sources */,
+				FCBD6F1A1F5674E90008B82D /* DataViewController.swift in Sources */,
+				FCBD6F161F5674E90008B82D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCBD6F261F5674EA0008B82D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCBD6F2F1F5674EA0008B82D /* PondTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCBD6F311F5674EA0008B82D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCBD6F3A1F5674EA0008B82D /* PondUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FCBD6F2C1F5674EA0008B82D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FCBD6F111F5674E90008B82D /* Pond */;
+			targetProxy = FCBD6F2B1F5674EA0008B82D /* PBXContainerItemProxy */;
+		};
+		FCBD6F371F5674EA0008B82D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FCBD6F111F5674E90008B82D /* Pond */;
+			targetProxy = FCBD6F361F5674EA0008B82D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FCBD6F1D1F5674E90008B82D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FCBD6F1E1F5674E90008B82D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FCBD6F221F5674E90008B82D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FCBD6F231F5674E90008B82D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FCBD6F3C1F5674EA0008B82D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FCBD6F3D1F5674EA0008B82D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FCBD6F3F1F5674EA0008B82D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Pond/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.darkie.Pond;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		FCBD6F401F5674EA0008B82D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Pond/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.darkie.Pond;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		FCBD6F421F5674EA0008B82D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PondTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.darkie.PondTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pond.app/Pond";
+			};
+			name = Debug;
+		};
+		FCBD6F431F5674EA0008B82D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PondTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.darkie.PondTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pond.app/Pond";
+			};
+			name = Release;
+		};
+		FCBD6F451F5674EA0008B82D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = PondUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.darkie.PondUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Pond;
+			};
+			name = Debug;
+		};
+		FCBD6F461F5674EA0008B82D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = PondUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.darkie.PondUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Pond;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FCBD6F0D1F5674E90008B82D /* Build configuration list for PBXProject "Pond" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCBD6F3C1F5674EA0008B82D /* Debug */,
+				FCBD6F3D1F5674EA0008B82D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FCBD6F3E1F5674EA0008B82D /* Build configuration list for PBXNativeTarget "Pond" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCBD6F3F1F5674EA0008B82D /* Debug */,
+				FCBD6F401F5674EA0008B82D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FCBD6F411F5674EA0008B82D /* Build configuration list for PBXNativeTarget "PondTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCBD6F421F5674EA0008B82D /* Debug */,
+				FCBD6F431F5674EA0008B82D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FCBD6F441F5674EA0008B82D /* Build configuration list for PBXNativeTarget "PondUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCBD6F451F5674EA0008B82D /* Debug */,
+				FCBD6F461F5674EA0008B82D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FCBD6F0A1F5674E90008B82D /* Project object */;
+}
